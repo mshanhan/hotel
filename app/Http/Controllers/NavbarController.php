@@ -97,7 +97,5 @@ class NavbarController extends Controller
         }
     }
 	
-	public function zt(){
-		echo 1;
-	}
+
 }
