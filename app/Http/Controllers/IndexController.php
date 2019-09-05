@@ -71,8 +71,9 @@ class IndexController extends Controller
     {
         return view('/index/xufei');
     }
-     public function xufeisss()
+     public function xufeis()
     {
-        return view('/index/xufeisss');
+        return view('/index/xufeis');
     }
+
 }
