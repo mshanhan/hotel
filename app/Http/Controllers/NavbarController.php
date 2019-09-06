@@ -96,4 +96,6 @@ class NavbarController extends Controller
             echo json_encode(['msg'=>'修改成功','code'=>1]);
         }
     }
+	
+
 }
