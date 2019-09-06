@@ -42,3 +42,12 @@ Route::prefix('/navbar')->group(function(){
     Route::any('update/{id}','NavbarController@update');//修改
     Route::any('doupdate','NavbarController@doupdate');//执行修改
 });
+//住房类型
+Route::prefix('/type')->group(function(){
+    Route::get('add','TypeController@add');//添加住房类型
+    Route::any('adddo','TypeController@adddo');//执行添加
+    Route::any('list','TypeController@list');//执行添加
+    Route::any('del','TypeController@del');//删除
+    Route::any('update/{id}','TypeController@update');//修改
+    Route::any('doupdate','TypeController@doupdate');//执行修改
+});

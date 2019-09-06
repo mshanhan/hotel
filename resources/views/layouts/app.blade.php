@@ -52,6 +52,20 @@
                 </a>
             </li>
         </ul>
+        <h2><span class="icon-pencil-square-o"></span>住房类型</h2>
+        <ul>
+            <li>
+                <a href="/type/add" target="right">
+                    <span class="icon-caret-right"></span>住房类型添加
+                </a>
+            </li>
+
+            <li>
+                <a href="/type/list" target="right">
+                    <span class="icon-caret-right"></span>住房类型列表
+                </a>
+            </li>
+        </ul>
 
 
 
